@@ -9,6 +9,7 @@ const Projects = () => {
       image: '/images/codeacademy.png',
       technologies: ['React','HTML','CSS',' JavaScript'],
       github: 'https://github.com/palasathwik95/Code-academy.git',
+      demo: 'https://coderesource.netlify.app',
     },
     {
       title: 'Trend Aura',
@@ -16,6 +17,7 @@ const Projects = () => {
       image: '/images/trendaura.png',
       technologies: ['React', 'CSS3', 'JavaScript', 'Bootstrap'],
       github: 'https://github.com/palasathwik95/Trend-aura.git',
+      demo: 'https://trendywebsite.netlify.app/',
     },
     
     
@@ -24,8 +26,25 @@ const Projects = () => {
       description: 'Build a pure frontend application that integrates Google Maps to track and display user locations. The app should support adding, editing, and deleting users, with their data (including location) stored temporarily in the browser using localStorage.',
       image: '/images/profilemap.png',
       technologies: ['React', 'Bootstrap', 'CSS3', 'JavaScript'],
-      github: 'https://github.com/palasathwik95/profile-map.git',
+      github: '',
+      demo: 'https://profilechecker.netlify.app/'
       
+    },
+    {
+      title: 'Create-Your-Resume',
+      description: 'A clean and responsive resume builder web app built using React.js. Users can input personal and professional details to generate a structured resume preview.',
+      image: '/images/cry.png',
+      technologies: ['React'],
+      github:"https://github.com/palasathwik95/Create-Your-Resume.git",
+      demo: 'https://graceful-jelly-b49f79.netlify.app/'
+    },
+    {
+      title: 'Wanderlust Travel',
+      description: 'A travel booking website that allows users to search for and book flights, hotels, and vacation packages. It features a user-friendly interface and secure payment options.',
+      image: '/images/wanderlust.png',
+      technologies: ['JavaScript','MongoDB','Express.js','Node.js'],
+      github:"https://github.com/palasathwik95/wanderlust.git",
+      demo: 'https://wanderlust-mkwb.onrender.com'
     }
     
   ];
@@ -61,6 +80,14 @@ const Projects = () => {
                     <i className="fab fa-github me-2"></i>
                     GitHub
                   </Button>
+                  <Button 
+                    variant="outline-light"
+                    href={project.demo}
+                    target="_blank"
+                    className="ms-2">
+                    <i className="fas fa-external-link-alt me-2"></i>
+                    Live Demo
+                    </Button>
                 </div>
                 
                 <Card.Body className="d-flex flex-column">

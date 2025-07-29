@@ -316,7 +316,7 @@ body {
 }
 
 .typing-animation {
-  border-right: 2px solid white;
+  border-right: 2px solid black;
   animation: blink 1s infinite;
 }
 

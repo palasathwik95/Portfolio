@@ -60,7 +60,7 @@ const About = () => {
                 <Card className="card-hover text-center gradient-bg text-white">
                   <Card.Body>
                     <i className="fas fa-code fa-3x mb-3"></i>
-                    <h4>3</h4>
+                    <h4>5</h4>
                     <p>Projects Completed</p>
                   </Card.Body>
                 </Card>

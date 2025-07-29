@@ -21,7 +21,7 @@ const Hero = () => {
           setCurrentIndex((prev) => (prev + 1) % titles.length);
         }, 2000);
       }
-    }, 100);
+    },100);
 
     return () => clearTimeout(timer);
   }, [text, currentIndex, titles]);
@@ -56,10 +56,10 @@ const Hero = () => {
             <h1>
               Hi, i'm <span className="text-warning">Sathwik Reddy</span>
             </h1>
-            <p className="typing-animation">
+            <p className="typing-animation" style={{ fontSize: '1.5rem', color: 'black' }}>
               {text}
             </p>
-            <p className="one">
+            <p className="one" style={{ fontSize: '1.2rem', color: 'black' }}>
               Passionate Full Stack Developer with expertise in React.js, Node.js, and modern web technologies.
               Currently pursuing B.Tech in Computer Science and Engineering.
             </p>
